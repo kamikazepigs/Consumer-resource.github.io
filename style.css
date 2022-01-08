@@ -245,15 +245,15 @@ div.dead {
     text-align: right;
     border-left-style: solid;
 }
-div.gatherer {
-    background-color: #EBEBEB;
-    text-align: left;
-    border-left-style: solid;
-}
 div.miner {
     background-color: #7A7A7A;
     text-align: right;
     border-right-style: solid;
+}
+div.gatherer {
+    background-color: #EBEBEB;
+    text-align: left;
+    border-left-style: solid;
 }
 span.weight-300 {
     font-weight: 300;
