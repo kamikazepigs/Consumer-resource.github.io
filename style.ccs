@@ -247,12 +247,12 @@ div.dead {
 }
 div.gatherer {
     background-color: #EBEBEB;
-    text-align: right;
+    text-align: left;
     border-left-style: solid;
 }
 div.miner {
     background-color: #7A7A7A;
-    text-align: left;
+    text-align: right;
     border-right-style: solid;
 }
 span.weight-300 {
