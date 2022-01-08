@@ -84,10 +84,9 @@ stats"></a></div></noscript>
         }
     }
 
-    econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
-    diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
-    govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
-    sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+    nutrArray = ["Herbivorous","Vegetarian","Plant-centered","Omnivore","Meat-centered","Meatarian","Carnivorous"]
+    straArray = ["Swallowing whole","Biting","Cutting","Unsure","Digging","Mole","Worm"]
+    mateArray = ["Raw","Fresh","Ripe","Balanced","Aged","Rotting","Decomposing"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -101,9 +100,9 @@ stats"></a></div></noscript>
         	{return ""}
     }
 
-    plant  = getQueryVariable("e")
-    miner     = getQueryVariable("d")
-    live   = getQueryVariable("g")
+    plant  = getQueryVariable("p")
+    miner     = getQueryVariable("m")
+    live   = getQueryVariable("l")
     meat    = (100 - plant).toFixed(1)
     gatherer     = (100 - miner   ).toFixed(1)
     dead = (100 - live ).toFixed(1)
@@ -115,17 +114,17 @@ stats"></a></div></noscript>
     setBarValue("live", live)
     setBarValue("dead", dead)
 
-    document.getElementById("nutrients-label").innerHTML = setLabel(plant, econArray)
-    document.getElementById("strategy-label").innerHTML = setLabel(miner, diplArray)
-    document.getElementById("material-label").innerHTML = setLabel(live, govtArray)
+    document.getElementById("nutrients-label").innerHTML = setLabel(plant, nutrArray)
+    document.getElementById("strategy-label").innerHTML = setLabel(miner, straArray)
+    document.getElementById("material-label").innerHTML = setLabel(live, mateArray)
 
     ideology = ""
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - plant), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - live), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - miner), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.nutr - plant), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.mate - live), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.stra - miner), 1.73856063)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
