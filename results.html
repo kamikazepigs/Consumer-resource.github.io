@@ -106,14 +106,14 @@ stats"></a></div></noscript>
     live   = getQueryVariable("g")
     meat    = (100 - plant).toFixed(1)
     gatherer     = (100 - miner   ).toFixed(1)
-    authority = (100 - live ).toFixed(1)
+    dead = (100 - live ).toFixed(1)
 
     setBarValue("plant", plant)
     setBarValue("meat", meat)
     setBarValue("miner", miner)
     setBarValue("gatherer", gatherer)
     setBarValue("live", live)
-    setBarValue("authority", authority)
+    setBarValue("dead", dead)
 
     document.getElementById("nutrients-label").innerHTML = setLabel(plant, econArray)
     document.getElementById("strategy-label").innerHTML = setLabel(miner, diplArray)
