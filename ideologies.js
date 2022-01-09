@@ -30,7 +30,7 @@ ideologies = [
             "stra": 0,
             "mate": 0,
         }
-    },
+    }, 
         {
         "name": "Zontanophage",
         "stats": {
