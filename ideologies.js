@@ -7,3 +7,12 @@ ideologies = [
             "mate": 100,
         }
     },
+        {
+        "name": "Bestivore",
+        "stats": {
+            "nutr": 0,
+            "stra": 0,
+            "mate": 100,
+        }
+    }
+];
