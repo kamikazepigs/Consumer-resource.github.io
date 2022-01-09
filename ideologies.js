@@ -36,7 +36,7 @@ ideologies = [
         "stats": {
             "nutr": 100,
             "stra": 100,
-            "mate": 100,
+            "mate": 0,
         }
     },
         {
@@ -44,7 +44,7 @@ ideologies = [
         "stats": {
             "nutr": 0,
             "stra": 100,
-            "mate": 100,
+            "mate": 0,
         }
     },
         {
@@ -52,7 +52,7 @@ ideologies = [
         "stats": {
             "nutr": 100,
             "stra": 100,
-            "mate": 0,
+            "mate": 100,
         }
     },
         {
@@ -60,7 +60,7 @@ ideologies = [
         "stats": {
             "nutr": 0,
             "stra": 100,
-            "mate": 0,
+            "mate": 100,
         }
     }
 ];
