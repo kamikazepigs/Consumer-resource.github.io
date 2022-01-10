@@ -14,7 +14,7 @@ questions = [
             "stra": 0,
             "mate": 0,
         }
-    }
+    },
       {
         "question": "I consider myself carnivorous or something like it.",
         "effect": {
@@ -22,7 +22,7 @@ questions = [
             "stra": 0,
             "mate": 0,
         }
-    }
+    },
           {
         "question": "I don't eat plants and fruits, they just don't give me the right nutrients.",
         "effect": {
@@ -30,7 +30,7 @@ questions = [
             "stra": 0,
             "mate": 0,
         }
-    }
+    },
           {
         "question": "I like fruits and vegetables.",
         "effect": {
@@ -38,7 +38,7 @@ questions = [
             "stra": 0,
             "mate": 0,
         }
-    }
+    },
           {
         "question": "I like meat.",
         "effect": {
