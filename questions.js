@@ -42,7 +42,7 @@ questions = [
           {
         "question": "I like meat.",
         "effect": {
-            "nutr": 10,
+            "nutr": -10,
             "stra": 0,
             "mate": 0,
         }
