@@ -56,7 +56,7 @@ questions = [
         }
     },
     {
-    "question": "I prefear fresh food rather than aged food.",
+    "question": "I prefear prefer food rather than aged food.",
         "effect": {
             "nutr": 0,
             "stra": 0,
@@ -72,7 +72,7 @@ questions = [
         }
     },
     {
-    "question": "If someone dosen't finish their food I will gladly eat it.",
+    "question": "If someone doesn't finish their food I will gladly eat it.",
         "effect": {
             "nutr": 0,
             "stra": 0,
