@@ -72,7 +72,7 @@ questions = [
         }
     },
     {
-    "question": "I someone dosen't finish teir food I will gladly eat it.",
+    "question": "If someone dosen't finish teir food I will gladly eat it.",
         "effect": {
             "nutr": 0,
             "stra": 0,
