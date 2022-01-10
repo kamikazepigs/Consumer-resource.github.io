@@ -101,9 +101,9 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
         let final_stra = stra_array.reduce((a, b) => a + b, 0)
         let final_mate = mate_array.reduce((a, b) => a + b, 0)
         location.href = `results.html`
-            + `?e=${calc_score(final_nutr,max_nutr)}`
-            + `&d=${calc_score(final_stra,max_stra)}`
-            + `&g=${calc_score(final_mate,max_mate)}`
+            + `?p=${calc_score(final_nutr,max_nutr)}`
+            + `&m=${calc_score(final_stra,max_stra)}`
+            + `&l=${calc_score(final_mate,max_mate)}`
     }
 </script>
 </body>
