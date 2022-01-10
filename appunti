@@ -5,9 +5,9 @@ authority = dead
 peace/globe = miner
 might/nation = gatherer
 
-economic = Nutrients
-diplomatic = Strategy
-civil = materia
+economic = Nutrients    +NUTR = +PLANT
+diplomatic = Strategy   +STRA = +MINER
+civil = materia         +MATE = +LIVE
 
 
 distruggi:
